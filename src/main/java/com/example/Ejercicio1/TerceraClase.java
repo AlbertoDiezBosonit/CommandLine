@@ -11,7 +11,7 @@ import java.util.Date;
 public class TerceraClase {
     @Bean
     CommandLineRunner ejecutame1(){
-        System.out.println("Hola desde la tercera clase "+new Date().getTime()+" ");
+        System.out.println("Hola desde la tercera clase, tiempo: "+new Date().getTime()+" ");
         /*return p ->
         {
             System.out.println("Hola desde la tercera "+new Date().getTime());

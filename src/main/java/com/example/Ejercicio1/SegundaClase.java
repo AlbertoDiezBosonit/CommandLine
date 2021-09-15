@@ -10,10 +10,10 @@ import java.util.Date;
 public class SegundaClase {
     @Bean
     CommandLineRunner ejecutame2(){
-        System.out.println("Hola desde la segunda clase "+new Date().getTime()+" ");
+        System.out.println("Hola desde la segunda clase, tiempo: "+new Date().getTime()+" ");
         return p ->
         {
-          System.out.println("Hola desde la segunda clase "+new Date().getTime()+" ");
+          System.out.println("Hola desde la segunda clase desde el CommandLineRunner, tiempo: "+new Date().getTime()+" ");
         };
 
     }
